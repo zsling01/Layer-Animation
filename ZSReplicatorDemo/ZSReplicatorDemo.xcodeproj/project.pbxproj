@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF6D83451F5D6E2B0073254B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6D83441F5D6E2B0073254B /* main.m */; };
+		AF6D83481F5D6E2B0073254B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6D83471F5D6E2B0073254B /* AppDelegate.m */; };
+		AF6D834E1F5D6E2B0073254B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6D834C1F5D6E2B0073254B /* Main.storyboard */; };
+		AF6D83501F5D6E2B0073254B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6D834F1F5D6E2B0073254B /* Assets.xcassets */; };
+		AF6D83531F5D6E2B0073254B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83511F5D6E2B0073254B /* LaunchScreen.storyboard */; };
+		AF6D835E1F5D6E2B0073254B /* ZSReplicatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6D835D1F5D6E2B0073254B /* ZSReplicatorDemoTests.m */; };
+		AF6D83691F5D6E2B0073254B /* ZSReplicatorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6D83681F5D6E2B0073254B /* ZSReplicatorDemoUITests.m */; };
+		AF6D837B1F5D6E5A0073254B /* ReplicatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6D83771F5D6E5A0073254B /* ReplicatorViewController.m */; };
+		AF6D837C1F5D6E5A0073254B /* ReplicatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83781F5D6E5A0073254B /* ReplicatorViewController.xib */; };
+		AF6D837D1F5D6E5A0073254B /* RepliView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6D837A1F5D6E5A0073254B /* RepliView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF6D835A1F5D6E2B0073254B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6D83381F5D6E2B0073254B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF6D833F1F5D6E2B0073254B;
+			remoteInfo = ZSReplicatorDemo;
+		};
+		AF6D83651F5D6E2B0073254B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6D83381F5D6E2B0073254B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF6D833F1F5D6E2B0073254B;
+			remoteInfo = ZSReplicatorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF6D83401F5D6E2B0073254B /* ZSReplicatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSReplicatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6D83441F5D6E2B0073254B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF6D83461F5D6E2B0073254B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF6D83471F5D6E2B0073254B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF6D834D1F5D6E2B0073254B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF6D834F1F5D6E2B0073254B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF6D83521F5D6E2B0073254B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF6D83541F5D6E2B0073254B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF6D83591F5D6E2B0073254B /* ZSReplicatorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSReplicatorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6D835D1F5D6E2B0073254B /* ZSReplicatorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSReplicatorDemoTests.m; sourceTree = "<group>"; };
+		AF6D835F1F5D6E2B0073254B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF6D83641F5D6E2B0073254B /* ZSReplicatorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSReplicatorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6D83681F5D6E2B0073254B /* ZSReplicatorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSReplicatorDemoUITests.m; sourceTree = "<group>"; };
+		AF6D836A1F5D6E2B0073254B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF6D83761F5D6E5A0073254B /* ReplicatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplicatorViewController.h; sourceTree = "<group>"; };
+		AF6D83771F5D6E5A0073254B /* ReplicatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplicatorViewController.m; sourceTree = "<group>"; };
+		AF6D83781F5D6E5A0073254B /* ReplicatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReplicatorViewController.xib; sourceTree = "<group>"; };
+		AF6D83791F5D6E5A0073254B /* RepliView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepliView.h; sourceTree = "<group>"; };
+		AF6D837A1F5D6E5A0073254B /* RepliView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepliView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF6D833D1F5D6E2B0073254B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6D83561F5D6E2B0073254B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6D83611F5D6E2B0073254B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF6D83371F5D6E2B0073254B = {
+			isa = PBXGroup;
+			children = (
+				AF6D83421F5D6E2B0073254B /* ZSReplicatorDemo */,
+				AF6D835C1F5D6E2B0073254B /* ZSReplicatorDemoTests */,
+				AF6D83671F5D6E2B0073254B /* ZSReplicatorDemoUITests */,
+				AF6D83411F5D6E2B0073254B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF6D83411F5D6E2B0073254B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF6D83401F5D6E2B0073254B /* ZSReplicatorDemo.app */,
+				AF6D83591F5D6E2B0073254B /* ZSReplicatorDemoTests.xctest */,
+				AF6D83641F5D6E2B0073254B /* ZSReplicatorDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF6D83421F5D6E2B0073254B /* ZSReplicatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AF6D837F1F5D6E730073254B /* Other */,
+				AF6D837E1F5D6E630073254B /* Replicatore */,
+				AF6D83431F5D6E2B0073254B /* Supporting Files */,
+			);
+			path = ZSReplicatorDemo;
+			sourceTree = "<group>";
+		};
+		AF6D83431F5D6E2B0073254B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF6D83441F5D6E2B0073254B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF6D835C1F5D6E2B0073254B /* ZSReplicatorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF6D835D1F5D6E2B0073254B /* ZSReplicatorDemoTests.m */,
+				AF6D835F1F5D6E2B0073254B /* Info.plist */,
+			);
+			path = ZSReplicatorDemoTests;
+			sourceTree = "<group>";
+		};
+		AF6D83671F5D6E2B0073254B /* ZSReplicatorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF6D83681F5D6E2B0073254B /* ZSReplicatorDemoUITests.m */,
+				AF6D836A1F5D6E2B0073254B /* Info.plist */,
+			);
+			path = ZSReplicatorDemoUITests;
+			sourceTree = "<group>";
+		};
+		AF6D837E1F5D6E630073254B /* Replicatore */ = {
+			isa = PBXGroup;
+			children = (
+				AF6D83761F5D6E5A0073254B /* ReplicatorViewController.h */,
+				AF6D83771F5D6E5A0073254B /* ReplicatorViewController.m */,
+				AF6D83781F5D6E5A0073254B /* ReplicatorViewController.xib */,
+				AF6D83791F5D6E5A0073254B /* RepliView.h */,
+				AF6D837A1F5D6E5A0073254B /* RepliView.m */,
+				AF6D834C1F5D6E2B0073254B /* Main.storyboard */,
+			);
+			name = Replicatore;
+			sourceTree = "<group>";
+		};
+		AF6D837F1F5D6E730073254B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				AF6D83461F5D6E2B0073254B /* AppDelegate.h */,
+				AF6D83471F5D6E2B0073254B /* AppDelegate.m */,
+				AF6D834F1F5D6E2B0073254B /* Assets.xcassets */,
+				AF6D83511F5D6E2B0073254B /* LaunchScreen.storyboard */,
+				AF6D83541F5D6E2B0073254B /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF6D833F1F5D6E2B0073254B /* ZSReplicatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6D836D1F5D6E2B0073254B /* Build configuration list for PBXNativeTarget "ZSReplicatorDemo" */;
+			buildPhases = (
+				AF6D833C1F5D6E2B0073254B /* Sources */,
+				AF6D833D1F5D6E2B0073254B /* Frameworks */,
+				AF6D833E1F5D6E2B0073254B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSReplicatorDemo;
+			productName = ZSReplicatorDemo;
+			productReference = AF6D83401F5D6E2B0073254B /* ZSReplicatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF6D83581F5D6E2B0073254B /* ZSReplicatorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6D83701F5D6E2B0073254B /* Build configuration list for PBXNativeTarget "ZSReplicatorDemoTests" */;
+			buildPhases = (
+				AF6D83551F5D6E2B0073254B /* Sources */,
+				AF6D83561F5D6E2B0073254B /* Frameworks */,
+				AF6D83571F5D6E2B0073254B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF6D835B1F5D6E2B0073254B /* PBXTargetDependency */,
+			);
+			name = ZSReplicatorDemoTests;
+			productName = ZSReplicatorDemoTests;
+			productReference = AF6D83591F5D6E2B0073254B /* ZSReplicatorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF6D83631F5D6E2B0073254B /* ZSReplicatorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6D83731F5D6E2B0073254B /* Build configuration list for PBXNativeTarget "ZSReplicatorDemoUITests" */;
+			buildPhases = (
+				AF6D83601F5D6E2B0073254B /* Sources */,
+				AF6D83611F5D6E2B0073254B /* Frameworks */,
+				AF6D83621F5D6E2B0073254B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF6D83661F5D6E2B0073254B /* PBXTargetDependency */,
+			);
+			name = ZSReplicatorDemoUITests;
+			productName = ZSReplicatorDemoUITests;
+			productReference = AF6D83641F5D6E2B0073254B /* ZSReplicatorDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF6D83381F5D6E2B0073254B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zsling;
+				TargetAttributes = {
+					AF6D833F1F5D6E2B0073254B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					AF6D83581F5D6E2B0073254B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF6D833F1F5D6E2B0073254B;
+					};
+					AF6D83631F5D6E2B0073254B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF6D833F1F5D6E2B0073254B;
+					};
+				};
+			};
+			buildConfigurationList = AF6D833B1F5D6E2B0073254B /* Build configuration list for PBXProject "ZSReplicatorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF6D83371F5D6E2B0073254B;
+			productRefGroup = AF6D83411F5D6E2B0073254B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF6D833F1F5D6E2B0073254B /* ZSReplicatorDemo */,
+				AF6D83581F5D6E2B0073254B /* ZSReplicatorDemoTests */,
+				AF6D83631F5D6E2B0073254B /* ZSReplicatorDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF6D833E1F5D6E2B0073254B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6D83531F5D6E2B0073254B /* LaunchScreen.storyboard in Resources */,
+				AF6D837C1F5D6E5A0073254B /* ReplicatorViewController.xib in Resources */,
+				AF6D83501F5D6E2B0073254B /* Assets.xcassets in Resources */,
+				AF6D834E1F5D6E2B0073254B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6D83571F5D6E2B0073254B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6D83621F5D6E2B0073254B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF6D833C1F5D6E2B0073254B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6D83481F5D6E2B0073254B /* AppDelegate.m in Sources */,
+				AF6D837D1F5D6E5A0073254B /* RepliView.m in Sources */,
+				AF6D837B1F5D6E5A0073254B /* ReplicatorViewController.m in Sources */,
+				AF6D83451F5D6E2B0073254B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6D83551F5D6E2B0073254B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6D835E1F5D6E2B0073254B /* ZSReplicatorDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6D83601F5D6E2B0073254B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6D83691F5D6E2B0073254B /* ZSReplicatorDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF6D835B1F5D6E2B0073254B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF6D833F1F5D6E2B0073254B /* ZSReplicatorDemo */;
+			targetProxy = AF6D835A1F5D6E2B0073254B /* PBXContainerItemProxy */;
+		};
+		AF6D83661F5D6E2B0073254B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF6D833F1F5D6E2B0073254B /* ZSReplicatorDemo */;
+			targetProxy = AF6D83651F5D6E2B0073254B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF6D834C1F5D6E2B0073254B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF6D834D1F5D6E2B0073254B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF6D83511F5D6E2B0073254B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF6D83521F5D6E2B0073254B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF6D836B1F5D6E2B0073254B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF6D836C1F5D6E2B0073254B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF6D836E1F5D6E2B0073254B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZSReplicatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.99sns.ZSReplicatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF6D836F1F5D6E2B0073254B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZSReplicatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.99sns.ZSReplicatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF6D83711F5D6E2B0073254B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZSReplicatorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.99sns.ZSReplicatorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZSReplicatorDemo.app/ZSReplicatorDemo";
+			};
+			name = Debug;
+		};
+		AF6D83721F5D6E2B0073254B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZSReplicatorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.99sns.ZSReplicatorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZSReplicatorDemo.app/ZSReplicatorDemo";
+			};
+			name = Release;
+		};
+		AF6D83741F5D6E2B0073254B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZSReplicatorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.99sns.ZSReplicatorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZSReplicatorDemo;
+			};
+			name = Debug;
+		};
+		AF6D83751F5D6E2B0073254B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZSReplicatorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.99sns.ZSReplicatorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZSReplicatorDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF6D833B1F5D6E2B0073254B /* Build configuration list for PBXProject "ZSReplicatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6D836B1F5D6E2B0073254B /* Debug */,
+				AF6D836C1F5D6E2B0073254B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6D836D1F5D6E2B0073254B /* Build configuration list for PBXNativeTarget "ZSReplicatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6D836E1F5D6E2B0073254B /* Debug */,
+				AF6D836F1F5D6E2B0073254B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF6D83701F5D6E2B0073254B /* Build configuration list for PBXNativeTarget "ZSReplicatorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6D83711F5D6E2B0073254B /* Debug */,
+				AF6D83721F5D6E2B0073254B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF6D83731F5D6E2B0073254B /* Build configuration list for PBXNativeTarget "ZSReplicatorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6D83741F5D6E2B0073254B /* Debug */,
+				AF6D83751F5D6E2B0073254B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF6D83381F5D6E2B0073254B /* Project object */;
+}

@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF6D838E1F5D714B0073254B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6D838D1F5D714B0073254B /* main.m */; };
+		AF6D83911F5D714B0073254B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6D83901F5D714B0073254B /* AppDelegate.m */; };
+		AF6D83971F5D714B0073254B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83951F5D714B0073254B /* Main.storyboard */; };
+		AF6D83991F5D714B0073254B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83981F5D714B0073254B /* Assets.xcassets */; };
+		AF6D839C1F5D714B0073254B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6D839A1F5D714B0073254B /* LaunchScreen.storyboard */; };
+		AF6D83A71F5D714B0073254B /* ZSWaterWaveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6D83A61F5D714B0073254B /* ZSWaterWaveDemoTests.m */; };
+		AF6D83B21F5D714B0073254B /* ZSWaterWaveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6D83B11F5D714B0073254B /* ZSWaterWaveDemoUITests.m */; };
+		AF6D83CD1F5D72000073254B /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6D83C91F5D72000073254B /* WaveView.m */; };
+		AF6D83CE1F5D72000073254B /* WaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6D83CB1F5D72000073254B /* WaveViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF6D83A31F5D714B0073254B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6D83811F5D714B0073254B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF6D83881F5D714B0073254B;
+			remoteInfo = ZSWaterWaveDemo;
+		};
+		AF6D83AE1F5D714B0073254B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6D83811F5D714B0073254B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF6D83881F5D714B0073254B;
+			remoteInfo = ZSWaterWaveDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF6D83891F5D714B0073254B /* ZSWaterWaveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSWaterWaveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6D838D1F5D714B0073254B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF6D838F1F5D714B0073254B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF6D83901F5D714B0073254B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF6D83961F5D714B0073254B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF6D83981F5D714B0073254B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF6D839B1F5D714B0073254B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF6D839D1F5D714B0073254B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF6D83A21F5D714B0073254B /* ZSWaterWaveDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSWaterWaveDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6D83A61F5D714B0073254B /* ZSWaterWaveDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSWaterWaveDemoTests.m; sourceTree = "<group>"; };
+		AF6D83A81F5D714B0073254B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF6D83AD1F5D714B0073254B /* ZSWaterWaveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSWaterWaveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6D83B11F5D714B0073254B /* ZSWaterWaveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSWaterWaveDemoUITests.m; sourceTree = "<group>"; };
+		AF6D83B31F5D714B0073254B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF6D83C81F5D72000073254B /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
+		AF6D83C91F5D72000073254B /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
+		AF6D83CA1F5D72000073254B /* WaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveViewController.h; sourceTree = "<group>"; };
+		AF6D83CB1F5D72000073254B /* WaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF6D83861F5D714B0073254B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6D839F1F5D714B0073254B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6D83AA1F5D714B0073254B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF6D83801F5D714B0073254B = {
+			isa = PBXGroup;
+			children = (
+				AF6D838B1F5D714B0073254B /* ZSWaterWaveDemo */,
+				AF6D83A51F5D714B0073254B /* ZSWaterWaveDemoTests */,
+				AF6D83B01F5D714B0073254B /* ZSWaterWaveDemoUITests */,
+				AF6D838A1F5D714B0073254B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF6D838A1F5D714B0073254B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF6D83891F5D714B0073254B /* ZSWaterWaveDemo.app */,
+				AF6D83A21F5D714B0073254B /* ZSWaterWaveDemoTests.xctest */,
+				AF6D83AD1F5D714B0073254B /* ZSWaterWaveDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF6D838B1F5D714B0073254B /* ZSWaterWaveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AF6D83BF1F5D71710073254B /* Other */,
+				AF6D83951F5D714B0073254B /* Main.storyboard */,
+				AF6D83C81F5D72000073254B /* WaveView.h */,
+				AF6D83C91F5D72000073254B /* WaveView.m */,
+				AF6D83CA1F5D72000073254B /* WaveViewController.h */,
+				AF6D83CB1F5D72000073254B /* WaveViewController.m */,
+				AF6D838C1F5D714B0073254B /* Supporting Files */,
+			);
+			path = ZSWaterWaveDemo;
+			sourceTree = "<group>";
+		};
+		AF6D838C1F5D714B0073254B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF6D838D1F5D714B0073254B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF6D83A51F5D714B0073254B /* ZSWaterWaveDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF6D83A61F5D714B0073254B /* ZSWaterWaveDemoTests.m */,
+				AF6D83A81F5D714B0073254B /* Info.plist */,
+			);
+			path = ZSWaterWaveDemoTests;
+			sourceTree = "<group>";
+		};
+		AF6D83B01F5D714B0073254B /* ZSWaterWaveDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF6D83B11F5D714B0073254B /* ZSWaterWaveDemoUITests.m */,
+				AF6D83B31F5D714B0073254B /* Info.plist */,
+			);
+			path = ZSWaterWaveDemoUITests;
+			sourceTree = "<group>";
+		};
+		AF6D83BF1F5D71710073254B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				AF6D838F1F5D714B0073254B /* AppDelegate.h */,
+				AF6D83901F5D714B0073254B /* AppDelegate.m */,
+				AF6D839A1F5D714B0073254B /* LaunchScreen.storyboard */,
+				AF6D839D1F5D714B0073254B /* Info.plist */,
+				AF6D83981F5D714B0073254B /* Assets.xcassets */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF6D83881F5D714B0073254B /* ZSWaterWaveDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6D83B61F5D714B0073254B /* Build configuration list for PBXNativeTarget "ZSWaterWaveDemo" */;
+			buildPhases = (
+				AF6D83851F5D714B0073254B /* Sources */,
+				AF6D83861F5D714B0073254B /* Frameworks */,
+				AF6D83871F5D714B0073254B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSWaterWaveDemo;
+			productName = ZSWaterWaveDemo;
+			productReference = AF6D83891F5D714B0073254B /* ZSWaterWaveDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF6D83A11F5D714B0073254B /* ZSWaterWaveDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6D83B91F5D714B0073254B /* Build configuration list for PBXNativeTarget "ZSWaterWaveDemoTests" */;
+			buildPhases = (
+				AF6D839E1F5D714B0073254B /* Sources */,
+				AF6D839F1F5D714B0073254B /* Frameworks */,
+				AF6D83A01F5D714B0073254B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF6D83A41F5D714B0073254B /* PBXTargetDependency */,
+			);
+			name = ZSWaterWaveDemoTests;
+			productName = ZSWaterWaveDemoTests;
+			productReference = AF6D83A21F5D714B0073254B /* ZSWaterWaveDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF6D83AC1F5D714B0073254B /* ZSWaterWaveDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6D83BC1F5D714B0073254B /* Build configuration list for PBXNativeTarget "ZSWaterWaveDemoUITests" */;
+			buildPhases = (
+				AF6D83A91F5D714B0073254B /* Sources */,
+				AF6D83AA1F5D714B0073254B /* Frameworks */,
+				AF6D83AB1F5D714B0073254B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF6D83AF1F5D714B0073254B /* PBXTargetDependency */,
+			);
+			name = ZSWaterWaveDemoUITests;
+			productName = ZSWaterWaveDemoUITests;
+			productReference = AF6D83AD1F5D714B0073254B /* ZSWaterWaveDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF6D83811F5D714B0073254B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zsling;
+				TargetAttributes = {
+					AF6D83881F5D714B0073254B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					AF6D83A11F5D714B0073254B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF6D83881F5D714B0073254B;
+					};
+					AF6D83AC1F5D714B0073254B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF6D83881F5D714B0073254B;
+					};
+				};
+			};
+			buildConfigurationList = AF6D83841F5D714B0073254B /* Build configuration list for PBXProject "ZSWaterWaveDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF6D83801F5D714B0073254B;
+			productRefGroup = AF6D838A1F5D714B0073254B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF6D83881F5D714B0073254B /* ZSWaterWaveDemo */,
+				AF6D83A11F5D714B0073254B /* ZSWaterWaveDemoTests */,
+				AF6D83AC1F5D714B0073254B /* ZSWaterWaveDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF6D83871F5D714B0073254B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6D839C1F5D714B0073254B /* LaunchScreen.storyboard in Resources */,
+				AF6D83991F5D714B0073254B /* Assets.xcassets in Resources */,
+				AF6D83971F5D714B0073254B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6D83A01F5D714B0073254B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6D83AB1F5D714B0073254B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF6D83851F5D714B0073254B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6D83911F5D714B0073254B /* AppDelegate.m in Sources */,
+				AF6D83CE1F5D72000073254B /* WaveViewController.m in Sources */,
+				AF6D838E1F5D714B0073254B /* main.m in Sources */,
+				AF6D83CD1F5D72000073254B /* WaveView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6D839E1F5D714B0073254B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6D83A71F5D714B0073254B /* ZSWaterWaveDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6D83A91F5D714B0073254B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6D83B21F5D714B0073254B /* ZSWaterWaveDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF6D83A41F5D714B0073254B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF6D83881F5D714B0073254B /* ZSWaterWaveDemo */;
+			targetProxy = AF6D83A31F5D714B0073254B /* PBXContainerItemProxy */;
+		};
+		AF6D83AF1F5D714B0073254B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF6D83881F5D714B0073254B /* ZSWaterWaveDemo */;
+			targetProxy = AF6D83AE1F5D714B0073254B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF6D83951F5D714B0073254B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF6D83961F5D714B0073254B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF6D839A1F5D714B0073254B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF6D839B1F5D714B0073254B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF6D83B41F5D714B0073254B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF6D83B51F5D714B0073254B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF6D83B71F5D714B0073254B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZSWaterWaveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.99sns.ZSWaterWaveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF6D83B81F5D714B0073254B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZSWaterWaveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.99sns.ZSWaterWaveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF6D83BA1F5D714B0073254B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZSWaterWaveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.99sns.ZSWaterWaveDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZSWaterWaveDemo.app/ZSWaterWaveDemo";
+			};
+			name = Debug;
+		};
+		AF6D83BB1F5D714B0073254B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZSWaterWaveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.99sns.ZSWaterWaveDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZSWaterWaveDemo.app/ZSWaterWaveDemo";
+			};
+			name = Release;
+		};
+		AF6D83BD1F5D714B0073254B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZSWaterWaveDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.99sns.ZSWaterWaveDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZSWaterWaveDemo;
+			};
+			name = Debug;
+		};
+		AF6D83BE1F5D714B0073254B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZSWaterWaveDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.99sns.ZSWaterWaveDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZSWaterWaveDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF6D83841F5D714B0073254B /* Build configuration list for PBXProject "ZSWaterWaveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6D83B41F5D714B0073254B /* Debug */,
+				AF6D83B51F5D714B0073254B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6D83B61F5D714B0073254B /* Build configuration list for PBXNativeTarget "ZSWaterWaveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6D83B71F5D714B0073254B /* Debug */,
+				AF6D83B81F5D714B0073254B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF6D83B91F5D714B0073254B /* Build configuration list for PBXNativeTarget "ZSWaterWaveDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6D83BA1F5D714B0073254B /* Debug */,
+				AF6D83BB1F5D714B0073254B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF6D83BC1F5D714B0073254B /* Build configuration list for PBXNativeTarget "ZSWaterWaveDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6D83BD1F5D714B0073254B /* Debug */,
+				AF6D83BE1F5D714B0073254B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF6D83811F5D714B0073254B /* Project object */;
+}

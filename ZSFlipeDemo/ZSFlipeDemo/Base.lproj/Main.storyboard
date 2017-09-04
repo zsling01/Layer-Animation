@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SMP-eA-6A5">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--折叠效果-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="FlipeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="O7T-DT-yza">
+                                <rect key="frame" x="137" y="283" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Vkp-xh-kE8"/>
+                                    <constraint firstAttribute="height" constant="100" id="jNx-Yf-ysa"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="FGG-7L-XnU">
+                                <rect key="frame" x="137" y="283" width="100" height="100"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oK8-py-Ij8">
+                                <rect key="frame" x="137" y="233" width="100" height="200"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="bAB-Df-2HZ"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Zmo-gO-hiV" appends="YES" id="njM-Tq-6sb"/>
+                                </connections>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="按下图片，然后往下拉" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iuj-Ae-uxo">
+                                <rect key="frame" x="94" y="180" width="174" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="O7T-DT-yza" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ccf-NP-vu1"/>
+                            <constraint firstItem="O7T-DT-yza" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dFu-4L-UiS"/>
+                            <constraint firstItem="FGG-7L-XnU" firstAttribute="centerY" secondItem="O7T-DT-yza" secondAttribute="centerY" id="f5T-DJ-FIT"/>
+                            <constraint firstItem="oK8-py-Ij8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kAp-Sv-uUY"/>
+                            <constraint firstItem="FGG-7L-XnU" firstAttribute="height" secondItem="O7T-DT-yza" secondAttribute="height" id="n64-2J-3e4"/>
+                            <constraint firstItem="FGG-7L-XnU" firstAttribute="centerX" secondItem="O7T-DT-yza" secondAttribute="centerX" id="niA-3r-SEg"/>
+                            <constraint firstItem="FGG-7L-XnU" firstAttribute="width" secondItem="O7T-DT-yza" secondAttribute="width" id="nuC-Qe-Qdy"/>
+                            <constraint firstItem="oK8-py-Ij8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ons-7n-eVX"/>
+                            <constraint firstItem="oK8-py-Ij8" firstAttribute="width" secondItem="O7T-DT-yza" secondAttribute="width" id="uUm-cl-2pH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="折叠效果" id="OdG-fL-1Oj">
+                        <barButtonItem key="rightBarButtonItem" id="gBD-I2-tMH">
+                            <connections>
+                                <action selector="pushToFlipeVC:" destination="BYZ-38-t0r" id="kCv-UY-D53"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="bottomView" destination="O7T-DT-yza" id="5HK-RJ-Brs"/>
+                        <outlet property="topView" destination="FGG-7L-XnU" id="pQp-mi-P9A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Zmo-gO-hiV">
+                    <connections>
+                        <action selector="flipGesture:" destination="BYZ-38-t0r" id="Ct1-eA-T2R"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1036" y="134.48275862068968"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="KIx-pZ-B2t">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SMP-eA-6A5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1Xl-Vc-my8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="6sW-3m-8Db"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hWn-Ok-hdf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="96.799999999999997" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon" width="533" height="300"/>
+    </resources>
+</document>
